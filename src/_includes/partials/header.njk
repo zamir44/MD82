@@ -1,12 +1,17 @@
     <div id="menu-wrapper">
         <nav class="nav-2 sticky">
             <input type="checkbox" id="nav-toggle" />
-            <div class="logo">
-                <a href="index.html">MD<strong>82</strong></a>
+            <div {% if page.url === '/contact/' %} class="logo white" {% else %} class="logo" {% endif %}>
+                <a href="/">
+                    MD<strong>82</strong>
+                </a>
             </div>
-            <ul class="links">
-                <li><a href="index.html" class="menu-items">Portfolio</a></li>
-                <li><a href="contact.html" class="menu-items">Kontakt</a></li>
+            <ul {% if page.url === '/contact/' %} class="links white" {% else %} class="links" {% endif %}>
+                {% for menu in site.menu %}
+                <li>
+                    <a href="{{ menu.url }}" class="menu-items">{{ menu.label }}</a>
+                </li>
+                {% endfor %}
             </ul>
             <label for="nav-toggle" class="icon-burger">
                 <div class="line"></div>
@@ -14,4 +19,13 @@
                 <div class="line"></div>
             </label>
         </nav>
+        {% if page.url === "/contact/" %}
+        <header class="hero-contact">
+            <div class="hero-overlay"></div>
+            <div class="hero-img">
+                <h1 class="hero-text">Kontaktiere uns</h1>
+                <p>Innovative, brillante Ideen zu liefern und sie in eine wunderbare Erfahrung zu verwandeln.</p>
+            </div>
+        </header>
+        {% endif %}
     </div>

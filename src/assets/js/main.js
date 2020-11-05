@@ -1,4 +1,5 @@
 import './lazyload.js';
+import * as basicLightbox from './basicLightbox.js'
 
 (new LazyLoad());
 
@@ -7,18 +8,13 @@ window.addEventListener('DOMContentLoaded', (e) => {
     const images = document.querySelectorAll('.grid-image');
     // const largeImages = document.querySelectorAll('.grid-half');
 
-    document.querySelector('.grid-image').onclick = () => {
-        images.forEach(image => {
-            image.addEventListener("click", (e) => {
+    images.forEach(image => {
+        image.addEventListener('click', (e) => {
+            const imagediv = image.childNodes[5].childNodes[1];
 
-                const url = image.childNodes[5].childNodes[1].src;
-
-                basicLightbox.create(`
-         <img width="1400" height="900" src="${url}">
-     `).show()
-            })
+            basicLightbox.create(imagediv).show()
         })
-    }
+    })
 
     // sticky here
 
