@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<div style="margin-top: 20rem;"></div>
+
+<div class="container">
+    {% for item in portfolio.items %}
+    {% if loop.index % 2 == 0 %}
+
+    <div style="height: 100vh; width: 50%" class="grid-container">
+        {% for img in item.right %}
+        <div class="grid-image-wrap">
+            <div class="grid-image">
+                <div class="grid-content">
+                    <h1>{{ img.title }}</h1>
+                    <p>{{ img.description }}</p>
+                </div>
+                <div class="grid-overlay"></div>
+                <div class="image">
+                    {% Image img.url, "portfolio image", {sm: 600, lg: 700, xl: 1200} %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="grid-half">
+        <div class="main-img">
+            <div class="main-img-content">
+                <h1>{{ item.main.title }}</h1>
+                <p>{{ item.main.description }}</p>
+            </div>
+
+            <div class="image">
+                <div class="main-overlay"></div>
+                {% Image item.main.url, "portfolio image", {sm: 600, lg: 700, xl: 1920} %}
+            </div>
+        </div>
+    </div>
+
+    {% else %}
+
+    <div class="grid-half">
+        <div class="main-img">
+            <div class="main-img-content">
+                <h1>{{ item.main.title }}</h1>
+                <p>{{ item.main.description }}</p>
+            </div>
+
+            <div class="image">
+                <div class="main-overlay"></div>
+                {% Image item.main.url, "portfolio image", {sm: 600, lg: 700, xl: 1920} %}
+            </div>
+        </div>
+    </div>
+    <div class="grid-container">
+        {% for img in item.right %}
+        <div class="grid-image-wrap">
+            <div class="grid-image">
+                <div class="grid-content">
+                    <h1>{{ img.title }}</h1>
+                    <p>{{ img.description }}</p>
+                </div>
+                <div class="grid-overlay"></div>
+                <div class="image">
+                    {% Image img.url, "portfolio image", {sm: 600, lg: 700, xl: 1200} %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    {% endif %}
+    {% endfor %}
+</div>
