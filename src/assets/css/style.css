@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -16,9 +17,9 @@ body {
     box-sizing: border-box;
 }
 
-#menu-wrapper .nav-2 {
+.nav-2 {
     position: fixed;
-    z-index: 22;
+    z-index: 23;
     left: 0;
     right: 0;
     top: 0;
@@ -26,12 +27,7 @@ body {
     background-color: transparent;
     display: flex;
     align-items: center;
-    transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    opacity: 1;
+    
 }
 
 nav .logo {
@@ -129,88 +125,16 @@ nav .icon-burger .line {
     right: 0;
     top: 0;
     padding: 0 8%;
-    background-color: #ccc;
+    background-color: #dbd6d4;
     display: flex;
+    align-items: center;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
-    opacity: 2;
-}
+    opacity: .95;
 
-@media screen and (max-width: 768px) {
-    nav {
-        background-color: #fff;
-    }
-    
-    nav .logo {
-        width: auto;
-        float: none;
-        margin: 0 auto;
-    }
-
-nav .links {
-    float: none;
-    position: fixed;
-    z-index: 10;
-    left: 0;
-    right: 0;
-    top: 6.8rem;
-    bottom: 100%;
-    height: auto;
-    width: auto;
-    flex-direction: column;
-    align-content: flex-start;
-    justify-content: center;
-    display: flex;
-    background-color: rgba(0,0,0,0.9);
-    overflow: hidden;
-    transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -ms-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-}
-
-    nav .links a {
-        font-size: 2.4rem;
-        color: #fff;
-        opacity: .88;
-        
-    }
-
-    nav .icon-burger {
-        display: block;
-    }
-
-    nav :checked ~ .links {
-        bottom: 0;
-    }
-
-nav :checked ~ .icon-burger .line:nth-child(1) {
-    transform: translateY(1rem) rotate(225deg);
-    -webkit-transform: translateY(1rem) rotate(225deg);
-    -moz-transform: translateY(1rem) rotate(225deg);
-    -ms-transform: translateY(1rem) rotate(225deg);
-    -o-transform: translateY(1rem) rotate(225deg);
-}
-
-nav :checked ~ .icon-burger .line:nth-child(3) {
-    transform: translateY(-1rem) rotate(-225deg);
-    -webkit-transform: translateY(-1rem) rotate(-225deg);
-    -moz-transform: translateY(-1rem) rotate(-225deg);
-    -ms-transform: translateY(-1rem) rotate(-225deg);
-    -o-transform: translateY(-1rem) rotate(-225deg);
-}
-
-nav :checked ~ .icon-burger .line:nth-child(2) {
-    opacity: 0;
-}
-
-    li:hover a::before {
-        opacity: 0;
-    }
 }
 
 
@@ -218,10 +142,11 @@ nav :checked ~ .icon-burger .line:nth-child(2) {
 
 .container {
     width: 100%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 
@@ -230,47 +155,6 @@ nav :checked ~ .icon-burger .line:nth-child(2) {
     flex-wrap: wrap;
     height: 100vh; 
     width: 50%;
-}
-
-@media screen and (max-width: 768px) {
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-    .grid-container {
-        display: flex;
-       }
-
-    .grid-container .grid-image-wrap {
-        width: 100%;
-        height: 50%;
-    }
-
-    .main-img img {
-        height: 100%;
-    }
-
-    .grid-image {
-        padding-left: 0!important;
-    }
-    
-    .main-img:hover .main-img-content {
-        transform: translateY(-7rem);
-        -webkit-transform: translateY(-7rem);
-        -moz-transform: translateY(-7rem);
-        -ms-transform: translateY(-7rem);
-        -o-transform: translateY(-7rem);
-    }
-
-    .grid-half .main-img {
-        height: 50vh;
-    }
-
-    .grid-half {
-        height: 50vh;
-    }
 }
 
 .grid-half {
@@ -283,7 +167,7 @@ nav :checked ~ .icon-burger .line:nth-child(2) {
     width: 100%;
     height: 100vh;
     position: relative;
-    padding-bottom: 1rem;
+    /* padding-bottom: 1rem; */
 }
 
 .main-img img {
@@ -299,6 +183,7 @@ nav :checked ~ .icon-burger .line:nth-child(2) {
 
 .main-img {
     position: relative;
+    cursor: pointer;
 }
 
 .main-img-content {
@@ -376,7 +261,7 @@ nav :checked ~ .icon-burger .line:nth-child(2) {
 .grid-image-wrap {
     width: 50%;
     height: 50%;
-    padding-bottom:  1rem;
+    /* padding-bottom: 1rem; */
 }
 
 .grid-image {
@@ -384,7 +269,7 @@ nav :checked ~ .icon-burger .line:nth-child(2) {
     height: 100%;
     overflow: hidden;
     position: relative;
-    padding-left: 1rem;
+    padding-left: 0rem;
     
 }
 
@@ -424,10 +309,10 @@ nav :checked ~ .icon-burger .line:nth-child(2) {
     left: 0;
     bottom: 0;
     right: 0;
-    width: 100%;
+    width: auto;
     height: 100%;
     opacity: 0;
-    margin-left: 1rem;
+    margin-left: 0rem;
 }
 
 .grid-image:hover .grid-overlay {
@@ -445,7 +330,7 @@ nav :checked ~ .icon-burger .line:nth-child(2) {
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     cursor: pointer;
-    margin-left: 1rem;
+    margin-left: 0rem;
 }
 
 .image img {
@@ -480,9 +365,149 @@ nav :checked ~ .icon-burger .line:nth-child(2) {
     display: block;
 }
 
-.image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+
+@media screen and (max-width: 768px) {
+    
+    nav {
+        background-color: transparent;
+    }
+    
+    nav .logo {
+        width: auto;
+        float: none;
+        margin: 0 auto;
+    }
+
+    nav .links {
+        float: none;
+        position: fixed;
+        z-index: 10;
+        left: 0;
+        right: 0;
+        top: 6.8rem;
+        bottom: 100%;
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        align-content: flex-start;
+        justify-content: center;
+        display: flex;
+        background-color: rgba(0,0,0,0.9);
+        overflow: hidden;
+        transition: all .5s ease-in-out;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -ms-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+    }
+
+    nav .links a {
+        font-size: 2.4rem;
+        color: #fff!important;
+        opacity: .88;
+        
+    }
+
+    nav .links a:hover {
+        color: #bcb6b3!important;
+    }
+
+    nav .icon-burger {
+        display: block;
+    }
+
+    nav :checked ~ .links {
+        bottom: 0;
+    }
+
+    nav :checked ~ .icon-burger .line:nth-child(1) {
+        transform: translateY(1rem) rotate(225deg);
+        -webkit-transform: translateY(1rem) rotate(225deg);
+        -moz-transform: translateY(1rem) rotate(225deg);
+        -ms-transform: translateY(1rem) rotate(225deg);
+        -o-transform: translateY(1rem) rotate(225deg);
+    }
+
+    nav :checked ~ .icon-burger .line:nth-child(3) {
+        transform: translateY(-1rem) rotate(-225deg);
+        -webkit-transform: translateY(-1rem) rotate(-225deg);
+        -moz-transform: translateY(-1rem) rotate(-225deg);
+        -ms-transform: translateY(-1rem) rotate(-225deg);
+        -o-transform: translateY(-1rem) rotate(-225deg);
+    }
+
+    nav :checked ~ .icon-burger .line:nth-child(2) {
+        opacity: 0;
+    }
+
+    li:hover a::before {
+        opacity: 0;
+        }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .grid-container {
+        display: flex;
+    }
+
+    .grid-container .grid-image-wrap {
+        width: 100%;
+        height: 50%;
+    }
+
+    .main-img img {
+        height: 100%;
+    }
+
+    .main-img-content {
+        padding: 2rem;
+        top: 73%;
+    } 
+
+    .grid-image {
+        padding-left: 0;
+    }
+
+    .grid-content {
+        left: 0rem;
+    }
+
+    .grid-overlay {
+        margin: 0rem;
+    }
+
+    .main-img:hover img {
+        
+}
+    
+    .main-img:hover .main-img-content {
+        transform: translateY(-1rem);
+        -webkit-transform: translateY(-1rem);
+        -moz-transform: translateY(-1rem);
+        -ms-transform: translateY(-1rem);
+        -o-transform: translateY(-1rem);
 }
 
+    .grid-half .main-img {
+        height: 50vh;
+    }
+
+    .grid-half {
+        height: 50vh;
+    }
+
+    .grid-image:hover .grid-overlay {
+        margin: 0rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .grid-image:hover .grid-overlay {
+        margin: 0rem;
+    }
+}

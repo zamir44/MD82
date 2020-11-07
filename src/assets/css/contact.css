@@ -52,13 +52,16 @@
 
 /* FOOTER */
 
-footer {
-    padding-bottom: 5rem;
+.footer {
+    padding: 5rem;
+    max-width: 145rem;
+    margin: 0 auto;
 }
 
 .flex-content {
+    
     font-size: 1.3rem;
-    width: 135rem;
+    max-width: 100%;
     margin: 7rem auto;
     background-color: #fff;
     color: #000;
@@ -105,44 +108,25 @@ h2 {
 }
 
 .icons {
-    display: block;
+    display: flex;
     float: right;
     margin-top: 4rem;
 }
 
-.icons .fa-facebook-f {
-    padding: 4px 9px;
-}
-
-.icons .fa-instagram {
-    padding: 4px 6px;
-}
-
-.icons .fa-facebook-f:hover,
-.icons .fa-instagram:hover {
-    background-color: #2653e3;
-    color: #fff;
-    border: 1px solid #fff;
-    transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
+.icons .gg-facebook,
+.icons .gg-instagram  {
+    font-size: 2rem;
+    margin-left: 1rem;
 }
 
 .icons p {
     font-weight: bolder;
 }
 
-i {
-    font-size: 2rem;
-    border: 1px solid #2653e3;
-    margin-left: 1rem;
-    color: #2653e3;
-}
+
 
 .copyright {
-    width: 135rem;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -162,6 +146,10 @@ i {
     opacity: .93;
 }
 
+/* .sticky {
+    background-color: transparent;
+} */
+
 
 @media screen and (max-width: 768px) {
     .hero-img p {
@@ -169,11 +157,15 @@ i {
         margin: 0 auto;
     }
 
+    .hero-text {
+        font-size: 6.5rem;
+    }
+
     .copyright {
         width: 100%;
     }
 
-    footer {
+    .footer {
         padding: 4rem;
     }
 
@@ -209,16 +201,25 @@ i {
         margin-left: 0;
     }
 
+    .sticky {
+        background-color: #777371;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
     .hero-text {
-        font-size: 7rem;
-        padding-top: 17rem;
+        font-size: 5rem;
+        padding-top: 16rem;
     }
 
     .hero-img p {
         width: 75%;
         margin: 0 auto;
+        font-size: 1.6rem;
+    }
+
+    .grid-image:hover .grid-overlay {
+        margin: 0rem;
     }
 }
