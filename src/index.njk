@@ -4,13 +4,14 @@ layout: default
 
 <div style="margin-top: 20rem;"></div>
 
-    {% for item in portfolio.items %}
-    {% if loop.index % 2 == 0 %}
+{% for item in portfolio.items %}
+
+{% if loop.index % 2 == 0 %}
 
 <div class="container flip">
     <div class="box-img">
         <div class="img-content">
-            <h1>{{ item.main.title }}</h1>
+            {# <h1>{{ item.main.title }}</h1> #}
             <p>{{ item.main.description }}</p>
         </div>
         <div class="grid-overlay"></div>
@@ -28,9 +29,7 @@ layout: default
     {% endfor %}
 </div>
 
-    
-    
- {% else %}
+{% else %}
 
 <div class="container">
     <div class="box-img">
