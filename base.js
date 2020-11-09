@@ -13,22 +13,11 @@ module.exports = function (config) {
     // Custom Async Shortcodes
     config.addNunjucksAsyncShortcode("Image", Picture);
 
-
-    // Vanilla Lazy Load
-    config.addPassthroughCopy({
-        "./node_modules/vanilla-lazyload/dist/lazyload.js": "./assets/js/lazyload.js",
-    });
-
-    config.addPassthroughCopy({
-        "./node_modules/basiclightbox/src/scripts/main.js": "./assets/js/basicLightbox.js",
-    });
-
     // Data Merge
     config.setDataDeepMerge(true);
 
     // Passthrough Files
     config.addPassthroughCopy("src/assets/css/**/*");
-    config.addPassthroughCopy("src/assets/js/**/*");
     config.addPassthroughCopy("src/assets/static/**/*");
     config.addPassthroughCopy("src/assets/favicon/**/*");
 
