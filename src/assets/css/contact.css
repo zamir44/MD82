@@ -83,6 +83,22 @@
     margin-top: 3rem;
 }
 
+.contact a {
+    color: #000;
+    text-decoration: none;
+}
+
+.email a {
+    color: #000;
+    text-decoration: none;
+}
+
+.contact a:hover,
+.email a:hover {
+    color: #2653e3;
+    text-decoration: square;
+}
+
 h2 {
     font-size: 2rem;
     opacity: .93;
@@ -91,7 +107,7 @@ h2 {
 .border {
     height: 3px;
     width: 5rem;
-    background-color: #2653e3;
+    background-color: #b0b3c1;
     margin-left: auto;
     margin-top: 0.5rem;
 }

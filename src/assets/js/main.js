@@ -5,26 +5,15 @@ import * as basicLightbox from './basicLightbox.js'
 
 window.addEventListener('DOMContentLoaded', (e) => {
 
-    const images = document.querySelectorAll('.grid-image');
+    const images = document.querySelectorAll('.box-img');
 
     images.forEach(image => {
         image.addEventListener('click', (e) => {
-            const item = image.childNodes[5].childNodes[1];
-
+            const item = image.childNodes[5];
+   
             basicLightbox.create(item.cloneNode(true)).show()
         })
     })
-
-    const mainImages = document.querySelectorAll('.main-img');
-
-    mainImages.forEach(image => {
-        image.addEventListener('click', (e) => {
-            const item = image.childNodes[3].childNodes[3];
-
-            basicLightbox.create(item.cloneNode(true)).show()
-        })
-    })
-
 
     // sticky here
 
