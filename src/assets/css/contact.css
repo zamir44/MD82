@@ -1,28 +1,41 @@
-/*** MENU ***/
+/*------------------------------------*\
+  #MENU
+\*------------------------------------*/
+
+
 .white a {
     color: #fff !important;
 }
+
 
 .white a:hover {
     color: #E2E8F0 !important;
 }
 
 
-/*** HERO SECTION ***/
+
+
+
+
+/*------------------------------------*\
+  #HERO SECTION
+\*------------------------------------*/
 
 .hero-contact {
     background-position-y: bottom;
     position: relative;
 }
 
+
 .hero-overlay {
     position: absolute;
-    top: 0;
+    top:    0;
     bottom: 0;
-    right: 0;
-    left: 0;
+    right:  0;
+    left:   0;
     background-color: rgba(0, 0, 0, 0.6);
 }
+
 
 .hero-contact .hero-img {
     height: 45rem;
@@ -33,41 +46,52 @@
     background-position-y: 70%;
 }
 
+
 .hero-text {
     font-size: 8rem;
     color: #fff;
     text-align: center;
     padding-top: 13rem;
     position: relative;
-
 }
 
+
 .hero-img p {
-    text-align: center;
-    font-size: 1.8rem;
     color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
     position: relative;
     z-index: 7;
 }
 
-/* FOOTER */
+
+
+
+
+
+/*------------------------------------*\
+  #FOOTER
+\*------------------------------------*/
+
 
 .footer {
     padding: 5rem;
+    padding-bottom: 2rem;
     max-width: 145rem;
     margin: 0 auto;
 }
 
+
 .flex-content {
-    
     font-size: 1.3rem;
-    max-width: 100%;
-    margin: 7rem auto;
     background-color: #fff;
     color: #000;
+    max-width: 100%;
+    margin: 7rem auto;
     display: flex;
     justify-content: space-between;
 }
+
 
 .text-left {
     width: 65rem;
@@ -75,46 +99,46 @@
     text-align: justify;
 }
 
-.text-left p {
-    margin-top: 3rem;
-}
 
+.text-left p,
 .contact p:first-of-type {
     margin-top: 3rem;
 }
 
-.contact a {
+
+.contact a,
+.address a {
     color: #000;
     text-decoration: none;
 }
 
-.email a {
-    color: #000;
-    text-decoration: none;
-}
 
 .contact a:hover,
-.email a:hover {
+.address a:hover {
     color: #2653e3;
-    text-decoration: square;
+    text-decoration: underline;
 }
+
 
 h2 {
     font-size: 2rem;
     opacity: .93;
 }
 
+
 .border {
+    background-color: #b0b3c1;
     height: 3px;
     width: 5rem;
-    background-color: #b0b3c1;
     margin-left: auto;
-    margin-top: 0.5rem;
+    margin-top:  0.5rem;
 }
+
 
 .text-left .border {
     margin-left: 0;
 }
+
 
 .contact,
 .address,
@@ -123,11 +147,13 @@ h2 {
     text-align: right;
 }
 
+
 .icons {
     display: flex;
     float: right;
     margin-top: 4rem;
 }
+
 
 .icons .gg-facebook,
 .icons .gg-instagram  {
@@ -135,10 +161,10 @@ h2 {
     margin-left: 1rem;
 }
 
+
 .icons p {
     font-weight: bolder;
 }
-
 
 
 .copyright {
@@ -146,11 +172,13 @@ h2 {
     margin: 0 auto;
 }
 
+
 .copyright hr {
     height: 1px;
     background-color: #b0b3c1;
     border: none;
 }
+
 
 .copyright p {
     font-size: 1.3rem;
@@ -162,9 +190,14 @@ h2 {
     opacity: .93;
 }
 
-/* .sticky {
-    background-color: transparent;
-} */
+
+
+
+
+
+/*------------------------------------*\
+  #MEDIA QUERIES
+\*------------------------------------*/
 
 
 @media screen and (max-width: 768px) {
@@ -222,6 +255,7 @@ h2 {
     }
 
 }
+
 
 @media screen and (max-width: 600px) {
     .hero-text {
