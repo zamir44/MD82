@@ -48,7 +48,7 @@
 
 
 .hero-heading {
-    font-size: 9.5rem;
+    font-size: 8.5rem;
     color: #fff;
     opacity: .93;
     text-align: center;
@@ -59,7 +59,7 @@
 
 .hero-text {
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-align: center;
     position: relative;
     z-index: 7;
@@ -77,7 +77,7 @@
 
 .footer {
     padding: 0rem 5rem;
-    padding-top: 14rem;
+    padding-top: 16rem;
     max-width: 145rem;
     margin: 0 auto;
 }
@@ -211,9 +211,9 @@ h2 {
         margin: 0 auto;
     }
 
-    .hero-text {
+    /* .hero-text {
         font-size: 6.5rem;
-    }
+    } */
 
     .copyright {
         width: 100%;
@@ -233,6 +233,10 @@ h2 {
     .text-left {
         text-align: center;
         margin-top: 4rem;
+    }
+
+    .text-left h2 {
+
     }
 
     .text-left .border {

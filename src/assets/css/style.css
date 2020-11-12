@@ -82,12 +82,12 @@ nav .links {
 
 .nav-2 .links li a {
     font-size: 1.6rem;
-    font-weight: bold;
+    font-weight: 600;
     color:#4A5568;
     display: block;
     padding: 0;
     border-bottom: 3px solid transparent;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-decoration: none;
     opacity: .9;
 }
@@ -118,6 +118,7 @@ nav .icon-burger {
         -moz-transform:         translateY(-50%);
             -ms-transform:      translateY(-50%);
                 -o-transform:   translateY(-50%);
+    z-index: 444;
 }
 
 
@@ -242,7 +243,7 @@ nav .icon-burger .line {
     color: #f2efef;
     font-size: 1.6rem;
     opacity: .9;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
     padding: 2rem;
     padding-left: 2.3rem;
@@ -294,7 +295,7 @@ nav .icon-burger .line {
 
 .grid-overlay {
     height: 100%;
-    background-color: rgba(0,0,0,0.15);
+    background-color: rgba(0,0,0,0.22);
     position: absolute;
     top:    0;
     left:   0;
@@ -313,6 +314,38 @@ nav .icon-burger .line {
     opacity: 1;
 }
 
+
+
+
+
+/*------------------------------------*\
+    #HOMEPAGE FOOTER
+\*------------------------------------*/
+
+
+.home {
+    padding: 1.5rem 1rem;
+}
+
+
+.home hr { 
+    -webkit-transform:          translateY(1rem); 
+        -moz-transform:         translateY(1rem);
+            -ms-transform:      translateY(1rem);
+                -o-transform:   translateY(1rem); 
+}
+
+
+.homepage .gg-instagram,
+.homepage .gg-facebook {
+    color: #4A5568;
+}
+
+
+.homepage .gg-instagram:hover,
+.homepage .gg-facebook:hover {
+    color: #1A202C;
+}
 
 
 
@@ -341,10 +374,9 @@ nav .icon-burger .line {
         width:  auto;
         float: none;
         position: fixed;
-        z-index: 10;
         left:   0;
         right:  0;
-        top: 6.8rem;
+        top:    0;
         bottom: 100%;
         display: flex;
         flex-direction: column;
@@ -355,6 +387,7 @@ nav .icon-burger .line {
             -moz-transition:        all .5s ease-in-out;
                 -ms-transition:     all .5s ease-in-out;
                     -o-transition:  all .5s ease-in-out;
+        z-index: 10;
     }
 
     nav .links a {
@@ -376,7 +409,6 @@ nav .icon-burger .line {
     }
 
     nav :checked ~ .icon-burger .line:nth-child(1) {
-        transform: translateY(1rem) rotate(225deg);
             -webkit-transform:          translateY(1rem) rotate(225deg);
                 -moz-transform:         translateY(1rem) rotate(225deg);
                     -ms-transform:      translateY(1rem) rotate(225deg);
@@ -384,7 +416,6 @@ nav .icon-burger .line {
     }
 
     nav :checked ~ .icon-burger .line:nth-child(3) {
-        transform: translateY(-1rem) rotate(-225deg);
             -webkit-transform:          translateY(-1rem) rotate(-225deg);
                 -moz-transform:         translateY(-1rem) rotate(-225deg);
                     -ms-transform:      translateY(-1rem) rotate(-225deg);
@@ -409,6 +440,11 @@ nav .icon-burger .line {
         margin: 0 auto;
     }
 }
+
+
+
+
+
 
 
 @media screen and (max-width: 600px) {
