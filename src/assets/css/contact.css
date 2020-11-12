@@ -38,7 +38,7 @@
 
 
 .hero-contact .hero-img {
-    height: 45rem;
+    height: 100vh;
     width: 100%;
     background-image: url('/assets/static/02.jpg');
     background-size: cover;
@@ -47,18 +47,19 @@
 }
 
 
-.hero-text {
-    font-size: 8rem;
+.hero-heading {
+    font-size: 8.5rem;
     color: #fff;
+    opacity: .93;
     text-align: center;
-    padding-top: 13rem;
+    padding-top: 20rem;
     position: relative;
 }
 
 
-.hero-img p {
+.hero-text {
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-align: center;
     position: relative;
     z-index: 7;
@@ -75,21 +76,24 @@
 
 
 .footer {
-    padding: 5rem;
-    padding-bottom: 2rem;
+    padding: 0rem 5rem;
+    padding-top: 16rem;
     max-width: 145rem;
     margin: 0 auto;
 }
 
 
 .flex-content {
-    font-size: 1.3rem;
-    background-color: #fff;
-    color: #000;
-    max-width: 100%;
-    margin: 7rem auto;
     display: flex;
     justify-content: space-between;
+    font-size: 1.3rem;
+    color: #fff;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 155;
+    opacity: .93;
 }
 
 
@@ -108,26 +112,34 @@
 
 .contact a,
 .address a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
+    font-size: 1.3rem;
 }
 
 
 .contact a:hover,
 .address a:hover {
-    color: #2653e3;
+    color: #f9f109;
     text-decoration: underline;
+}
+
+
+.contact p,
+.email p {
+    font-size: 1.3rem;
 }
 
 
 h2 {
     font-size: 2rem;
+    color: #E2E8F0;
     opacity: .93;
 }
 
 
 .border {
-    background-color: #b0b3c1;
+    background-color: #f9f109;
     height: 3px;
     width: 5rem;
     margin-left: auto;
@@ -152,13 +164,6 @@ h2 {
     display: flex;
     float: right;
     margin-top: 4rem;
-}
-
-
-.icons .gg-facebook,
-.icons .gg-instagram  {
-    font-size: 2rem;
-    margin-left: 1rem;
 }
 
 
@@ -206,9 +211,9 @@ h2 {
         margin: 0 auto;
     }
 
-    .hero-text {
+    /* .hero-text {
         font-size: 6.5rem;
-    }
+    } */
 
     .copyright {
         width: 100%;
@@ -228,6 +233,10 @@ h2 {
     .text-left {
         text-align: center;
         margin-top: 4rem;
+    }
+
+    .text-left h2 {
+
     }
 
     .text-left .border {

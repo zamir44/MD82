@@ -29,6 +29,7 @@
 		"basiclightbox": "^5.0.3",
 		"date-fns": "^2.16.1",
 		"html-minifier": "^4.0.0",
+		"luminous-lightbox": "^2.3.3",
 		"vanilla-lazyload": "^17.1.3"
 	}
 }

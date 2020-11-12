@@ -1,19 +1,22 @@
-import * as basicLightbox from 'basiclightbox';
-import LazyLoad from "vanilla-lazyload";
+// import * as basicLightbox from 'basiclightbox';
+// import LazyLoad from "vanilla-lazyload";
 
-(new LazyLoad());
+// (new LazyLoad());
 
-window.addEventListener('DOMContentLoaded', (e) => {
+// window.addEventListener('DOMContentLoaded', (e) => {
 
-  const images = document.querySelectorAll('.box-img');
+//   const images = document.querySelectorAll('.box-img');
 
-  images.forEach(image => {
-    image.addEventListener('click', (e) => {
-      const item = image.childNodes[2];
+//   images.forEach(image => {
+//     image.addEventListener('click', (e) => {
+//       const item = image.childNodes[2];
 
-      basicLightbox.create(item.cloneNode(true)).show()
-    })
-  })
+//       basicLightbox.create(item.cloneNode(true)).show()
+//     })
+//   })
+
+
+
 
   // sticky here
 
@@ -30,4 +33,6 @@ window.addEventListener('DOMContentLoaded', (e) => {
     { passive: true }
   );
 
-});
+// });
+
+new Luminous(document.querySelector("img"));
