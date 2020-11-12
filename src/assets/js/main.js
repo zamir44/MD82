@@ -11,7 +11,8 @@ window.addEventListener('DOMContentLoaded', (e) => {
 
   images.forEach(image => {
     image.addEventListener('click', (e) => {
-      const item = image.childNodes[5].childNodes[5];
+
+      const item = image.querySelector('[data-light]');
 
       const picture = `
         <img src="${item.dataset.light}" alt=""/>
