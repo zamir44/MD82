@@ -162,7 +162,7 @@ h2 {
 .icons {
     display: flex;
     float: right;
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
 }
 
 
@@ -172,8 +172,9 @@ h2 {
 
 
 .copyright {
-    max-width: 135rem;
+    max-width: 145rem;
     margin: 0 auto;
+    margin-top: 4rem;
 }
 
 
@@ -181,6 +182,7 @@ h2 {
     height: 1px;
     background-color: #b0b3c1;
     border: none;
+    margin-bottom: 2rem;
 }
 
 
@@ -189,7 +191,6 @@ h2 {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-top: 4rem;
     display: inline-block;
     opacity: .93;
 }
@@ -205,13 +206,13 @@ h2 {
 
 
 @media screen and (max-width: 768px) {
-    .burger-home .line {
+    .icon-burger .line {
         background-color: #fff;
     }
     
 .hero-heading {
-    font-size: 7rem;
-    padding-top: 18rem;
+    font-size: 6.3rem;
+    padding-top: 20rem;
 }
 
     .hero-img p {
@@ -220,7 +221,7 @@ h2 {
     }
 
     .hero-contact .hero-img {
-        height: 150vh;
+        height: 138vh;
         width: 100%;
     }
 
@@ -234,7 +235,9 @@ h2 {
     }
 
     .footer {
+        position: relative;
         padding: 4rem;
+        z-index: 11;
     }
 
     .flex-content {
@@ -244,7 +247,7 @@ h2 {
     }
 
     .text-left {
-        text-align: center;
+        margin: 0 auto;
         margin-top: 4rem;
     }
 
@@ -259,7 +262,7 @@ h2 {
     }
 
     .border {
-        margin: 1rem auto;
+        margin: 0 auto;
     }
 
     .contact,
