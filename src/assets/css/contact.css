@@ -16,7 +16,6 @@
 
 
 
-
 /*------------------------------------*\
   #HERO SECTION
 \*------------------------------------*/
@@ -84,6 +83,7 @@
 
 
 .flex-content {
+    position: relative;
     display: flex;
     justify-content: space-between;
     font-size: 1.3rem;
@@ -91,7 +91,6 @@
     max-width: 100%;
     margin: 0 auto;
     margin-bottom: 2rem;
-    position: relative;
     z-index: 155;
     opacity: .93;
 }
@@ -173,7 +172,7 @@ h2 {
 
 
 .copyright {
-    max-width: 100%;
+    max-width: 135rem;
     margin: 0 auto;
 }
 
@@ -206,17 +205,32 @@ h2 {
 
 
 @media screen and (max-width: 768px) {
+    .burger-home .line {
+        background-color: #fff;
+    }
+    
+.hero-heading {
+    font-size: 7rem;
+    padding-top: 18rem;
+}
+
     .hero-img p {
         width: 75%;
         margin: 0 auto;
     }
 
-    /* .hero-text {
-        font-size: 6.5rem;
-    } */
+    .hero-contact .hero-img {
+        height: 150vh;
+        width: 100%;
+    }
 
     .copyright {
-        width: 100%;
+        width: 75%;
+    }
+
+
+    hr {
+        margin-bottom: 2rem;
     }
 
     .footer {
@@ -227,7 +241,6 @@ h2 {
         width: 100%;
         flex-wrap: wrap;
         margin: 0 auto;
-
     }
 
     .text-left {
@@ -235,9 +248,6 @@ h2 {
         margin-top: 4rem;
     }
 
-    .text-left h2 {
-
-    }
 
     .text-left .border {
         margin: 1rem auto
@@ -259,8 +269,13 @@ h2 {
         margin-left: 0;
     }
 
-    .sticky {
-        background-color: #777371;
+    .text-left p,
+    .contact p:first-of-type  {
+        margin-top: 2rem;
+    }
+
+    .icons {
+        margin-top: 0;
     }
 
 }
