@@ -19,6 +19,8 @@ module.exports = async function (src, alt, breakWidths, classes = "", style = ""
 
   let lowestSrc = stats[outputFormat][0];
 
+  let lightboxImg = stats[outputFormat][2].url;
+
   // Generate placeholder image
   const placeholder = await sharp(lowestSrc.outputPath)
     .resize({
@@ -29,20 +31,21 @@ module.exports = async function (src, alt, breakWidths, classes = "", style = ""
 
   // Add base64
   const base64Placeholder = `data:image/png;base64,${placeholder.toString(
-      "base64"
-    )}`;
+    "base64"
+  )}`;
 
 
   // Iterate over formats and widths
   return `<picture>
       ${Object.values(stats).map(imageFormat => {
-        return `<source type="image/${imageFormat[0].format}" data-srcset="${imageFormat.map(entry => `${entry.url} ${entry.width}w`).join(", ")}">`;
-      }).join("\n")}
+    return `<source type="image/${imageFormat[0].format}" data-srcset="${imageFormat.map(entry => `${entry.url} ${entry.width}w`).join(", ")}">`;
+  }).join("\n")}
         <img
           data-src="${lowestSrc.url}"
           src="${base64Placeholder}"
           width="${lowestSrc.width}"
           height="${lowestSrc.height}"
+          data-light="${lightboxImg}"
           class="lazy ${classes}"
           style="${style}"
           alt="${alt}">

@@ -1,35 +1,26 @@
-
-import { Luminous } from 'luminous-lightbox';
+import * as basicLightbox from 'basiclightbox';
 import LazyLoad from "vanilla-lazyload";
-
-// import * as basicLightbox from 'basiclightbox';
 
 
 (new LazyLoad());
 
-let allImages = document.querySelectorAll('.lazy');
-
-allImages.forEach(image => {
-  new Luminous(image,  {sourceAttribute: "src"});
-})
-
-
-
 
 window.addEventListener('DOMContentLoaded', (e) => {
 
-  // const images = document.querySelectorAll('.box-img');
+  const images = document.querySelectorAll('.box-img');
 
-  // images.forEach(image => {
-  //   image.addEventListener('click', (e) => {
-  //     // const item = image.childNodes[2];
-  //     const item = image.querySelector('picture img');
+  images.forEach(image => {
+    image.addEventListener('click', (e) => {
 
-  //     new Luminous(item, {sourceAttribute: "src"});
+      const item = image.querySelector('[data-light]');
 
-  //     // basicLightbox.create(item.cloneNode(true)).show()
-  //   })
-  // })
+      const picture = `
+        <img src="${item.dataset.light}" alt=""/>
+      `
+
+      basicLightbox.create(picture).show();
+    })
+  })
 
 
 
@@ -50,5 +41,3 @@ window.addEventListener('DOMContentLoaded', (e) => {
   );
 
 });
-
-

@@ -4,9 +4,9 @@ layout: default
 
 <div style="margin-top: 5rem; padding-bottom: 5rem">
 
-{% for item in portfolio.items %}
+    {% for item in portfolio.items %}
 
-{% if loop.index % 2 == 0 %}
+    {% if loop.index % 2 == 0 %}
 
 <div class="container flip">
 
@@ -30,8 +30,6 @@ layout: default
         <div class="grid-overlay"></div>
         {% Image img.url, "portfolio image", {sm: 600, lg: 700, xl: 1200} %}
     </div>
-    {% endfor %}
-</div>
 
 
 {% else %}
@@ -55,8 +53,6 @@ layout: default
         <div class="grid-overlay"></div>
          {% Image img.url, "portfolio image", {sm: 600, lg: 700, xl: 1200} %}
     </div>
-    {% endfor %}
-</div>
 
 
 
