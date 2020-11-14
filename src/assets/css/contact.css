@@ -325,6 +325,10 @@ h2 {
     }
 }
 
+
+
+
+
 @media screen and (max-width: 442px) {
     .hero-heading {
         font-size: 5rem;
@@ -342,6 +346,10 @@ h2 {
 
     .hero-contact .hero-img {
         height: 144vh;
+    }
+
+    .footer {
+        padding-bottom: 0rem;
     }
 
     .text-left .border {
