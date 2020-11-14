@@ -238,6 +238,7 @@ h2 {
         position: relative;
         padding: 4rem;
         z-index: 11;
+        text-align: center;
     }
 
     .flex-content {
@@ -251,6 +252,9 @@ h2 {
         margin-top: 4rem;
     }
 
+    .text-left p {
+        text-align: center;
+    }
 
     .text-left .border {
         margin: 1rem auto
@@ -317,6 +321,38 @@ h2 {
     }
 
     .copyright {
-        margin-top: -2rem;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 442px) {
+    .hero-heading {
+        font-size: 5rem;
+        line-height: 1;
+    }
+
+    .hero-img p {
+        font-size: 1.4rem;
+    }
+
+    .hero-text {
+        padding-top: 2rem;
+        font-size: 1.7rem!important;
+    }
+
+    .hero-contact .hero-img {
+        height: 169vh;
+    }
+
+    .text-left .border {
+        margin: 2rem auto;
+    }
+
+    .copyright p {
+        text-align: left;
+    }
+
+    .copyright {
+        margin-top: 4rem;
     }
 }
