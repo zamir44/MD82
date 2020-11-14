@@ -172,7 +172,7 @@ h2 {
 
 
 .copyright {
-    max-width: 145rem;
+    max-width: 100%;
     margin: 0 auto;
     margin-top: 4rem;
 }
@@ -226,7 +226,7 @@ h2 {
     }
 
     .copyright {
-        width: 75%;
+        width: 145rem;
     }
 
 
@@ -285,9 +285,17 @@ h2 {
 
 
 @media screen and (max-width: 600px) {
+
+    .hero-img {
+        height: 148vh;
+    }
+
+    .hero-heading {
+        font-size: 5.5rem;
+    }
+
     .hero-text {
         font-size: 5rem;
-        padding-top: 16rem;
     }
 
     .hero-img p {
@@ -296,7 +304,19 @@ h2 {
         font-size: 1.6rem;
     }
 
+    .text-left p {
+        font-size: 1.4rem;
+    }
+
+    .flex-content p {
+        font-size: 1.4rem;
+    }
+
     .grid-image:hover .grid-overlay {
         margin: 0rem;
+    }
+
+    .copyright {
+        margin-top: -2rem;
     }
 }
