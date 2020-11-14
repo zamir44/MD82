@@ -341,7 +341,7 @@ h2 {
     }
 
     .hero-contact .hero-img {
-        height: 169vh;
+        height: 144vh;
     }
 
     .text-left .border {
@@ -353,6 +353,6 @@ h2 {
     }
 
     .copyright {
-        margin-top: 4rem;
+        margin-top: 2rem;
     }
 }
