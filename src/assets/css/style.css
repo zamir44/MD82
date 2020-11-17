@@ -479,11 +479,17 @@ color: #4A5568; */
 }
 
 .home {
-    padding: 1.5rem 4rem;
+    padding: 0 4rem;
 }
 
-.copyright hr {
-    margin-bottom: 2rem!important;
+hr {
+    background-color: #b0b3c1;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.homepage i {
+    color: #b0b3c1;
 }
 
 }
