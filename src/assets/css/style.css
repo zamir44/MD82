@@ -319,20 +319,10 @@ nav .icon-burger {
 }
 
 
-.homepage .gg-instagram,
-.homepage .gg-facebook {
-    color: #4A5568;
-}
 
 
-.homepage .gg-instagram:hover,
-.homepage .gg-facebook:hover {
-    color: #1A202C;
-}
-
-
-
-
+/* color: #1A202C;
+color: #4A5568; */
 
 /*------------------------------------*\
     #MEDIA QUERIES
@@ -447,6 +437,11 @@ nav .icon-burger {
 
 
 @media screen and (max-width: 600px) {
+
+    .box-img {
+        width: 80%;
+    }
+
     .grid-image:hover .grid-overlay {
         margin: 0rem;
     }
@@ -456,6 +451,17 @@ nav .icon-burger {
         height: 31rem;
         margin: 0 auto;
     }
+
+}
+
+
+
+
+
+@media  screen and (max-width:600px) and  (min-width:443px)   {
+    .box-img {
+        width: 80%;
+    }
 }
 
 
@@ -464,6 +470,10 @@ nav .icon-burger {
 
 @media screen and (max-width: 442px){
 
+.box-img {
+    width: 100%;
+}
+
 .copyright p {
     width: 75%;
 }
@@ -471,4 +481,9 @@ nav .icon-burger {
 .home {
     padding: 1.5rem 4rem;
 }
+
+.copyright hr {
+    margin-bottom: 2rem!important;
+}
+
 }

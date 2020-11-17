@@ -76,8 +76,8 @@
 
 .footer {
     padding: 0rem 5rem;
-    padding-top: 16rem;
-    max-width: 145rem;
+    padding-top: 50.5rem;
+    max-width: 90%;
     margin: 0 auto;
 }
 
@@ -90,7 +90,7 @@
     color: #fff;
     max-width: 100%;
     margin: 0 auto;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     z-index: 155;
     opacity: .93;
 }
@@ -159,22 +159,26 @@ h2 {
 }
 
 
-.icons {
-    display: flex;
-    float: right;
-    /* margin-top: 4rem; */
+.fa-instagram,
+.fa-facebook {
+    font-size: 2rem;
+    color: #E2E8F0;
+    position: relative;
+    z-index: 5555;
 }
 
 
-.icons p {
-    font-weight: bolder;
+.fa-instagram {
+    margin-right: 1rem;
 }
 
 
 .copyright {
+    display: flex;
+    justify-content: space-between;
     max-width: 100%;
     margin: 0 auto;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 
@@ -205,40 +209,116 @@ h2 {
 \*------------------------------------*/
 
 
+@media screen and (min-width: 1920px) {
+    .nav-2 .links li a {
+        font-size: 2.2rem;
+    }
+
+    .footer {
+        padding-top: 75rem;
+    }
+
+    .text-left {
+        font-size: 1.8rem;
+    }
+
+    .contact p,
+    .contact a,
+    .address p,
+    .address a,
+    .email p {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 2.8rem;
+    }
+
+    .flex-content {
+        margin-bottom: 4rem;
+    }
+
+    .border {
+        width: 8rem;
+    }
+
+    .copyright {
+        margin-top: 2rem;
+    }
+
+    .copyright p {
+        font-size: 1.8rem;
+    }
+
+    .fa-instagram,
+    .fa-facebook {
+        font-size: 3rem;
+        color: #fff;
+    }
+
+    .footer {
+        padding-top: 70rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 769px) {
+    .footer {
+        padding-top: 37.5rem;
+    }
+    
+}
+
+
+
+
+
 @media screen and (max-width: 768px) {
+    .hero-contact .hero-img {
+        height: 112vh;
+    }
+
     .icon-burger .line {
         background-color: #fff;
     }
     
-.hero-heading {
+    .hero-heading {
     font-size: 6.3rem;
     padding-top: 20rem;
-}
-
-    .hero-img p {
-        width: 75%;
-        margin: 0 auto;
     }
 
+
     .hero-contact .hero-img {
-        height: 138vh;
+        height: 110vh;
         width: 100%;
     }
 
     .copyright {
         width: 145rem;
+        margin-top: 1rem;
     }
 
-
     hr {
-        margin-bottom: 2rem;
+        margin-top: 2rem;
     }
 
     .footer {
         position: relative;
         padding: 4rem;
+        padding-bottom: 1rem;
         z-index: 11;
         text-align: center;
+        padding-top: 20rem;
     }
 
     .flex-content {
@@ -250,23 +330,23 @@ h2 {
     .text-left {
         margin: 0 auto;
         margin-top: 4rem;
+        text-align: center;
     }
 
     .text-left p {
         text-align: center;
     }
 
+    .border,
     .text-left .border {
-        margin: 1rem auto
+        margin: 0 auto;
+        margin-top: 1rem;
     }
 
     .footer-container {
         margin: 5rem auto;
+        padding-top: 2rem;
         text-align: center;
-    }
-
-    .border {
-        margin: 0 auto;
     }
 
     .contact,
@@ -288,10 +368,23 @@ h2 {
 }
 
 
+
+
+
+@media  screen and (max-width:731px) and  (min-width:601px)   {
+    .hero-contact .hero-img {
+        height: 113vh;
+    }
+}
+
+
+
+
+
 @media screen and (max-width: 600px) {
 
-    .hero-img {
-        height: 148vh;
+    .hero-contact .hero-img {
+        height: 117vh;
     }
 
     .hero-heading {
@@ -303,13 +396,14 @@ h2 {
     }
 
     .hero-img p {
-        width: 75%;
         margin: 0 auto;
+        margin-left: 0;
         font-size: 1.6rem;
     }
 
     .text-left p {
         font-size: 1.4rem;
+        margin-top: 2rem;
     }
 
     .flex-content p {
@@ -321,7 +415,12 @@ h2 {
     }
 
     .copyright {
-        margin-top: 2rem;
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .copyright p {
+        font-size: 1.4rem;
     }
 }
 
@@ -329,7 +428,48 @@ h2 {
 
 
 
-@media screen and (max-width: 442px) {
+
+
+@media  screen and (max-width:545px) and  (min-width:515px)   {
+    .hero-contact .hero-img {
+        height: 120vh;
+    }
+}
+
+
+
+
+
+@media  screen and (max-width:494px) and  (min-width:443px)   {
+    .hero-contact .hero-img {
+        height: 124vh;
+    }
+
+    .copyright p {
+        font-size: 1.4rem;
+    }
+}
+
+
+
+
+
+
+@media  screen and (max-width:514px) and  (min-width:494px)   {
+    .hero-contact .hero-img {
+        height: 123vh;
+    }
+
+    .icons {
+        display: flex;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 493px) {
     .hero-heading {
         font-size: 5rem;
         line-height: 1;
@@ -345,11 +485,12 @@ h2 {
     }
 
     .hero-contact .hero-img {
-        height: 144vh;
+        height: 126vh;
     }
 
     .footer {
         padding-bottom: 0rem;
+        padding-top: 16rem;
     }
 
     .text-left .border {
@@ -362,5 +503,43 @@ h2 {
 
     .copyright {
         margin-top: 2rem;
+
+    }
+
+    hr {
+        margin-bottom: 1rem;
+        color: #c1c1bf;
+    }
+
+    .icons {
+        display: flex;
     }
 }
+
+
+@media screen and (min-width: 1094px) {
+    .footer {
+        padding-top: 51rem;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
