@@ -39,21 +39,22 @@ layout: default
 <div class="container flip">
 
     <div class="box-img">
-        <div class="img-content">
+        <div class="img-content small">
             <p>{{ item.main.description }}</p>
         </div>
 
         <div class="grid-overlay"></div>
-        {% Image item.main.url, "portfolio image", {sm: 600, lg: 700, xl: 1920} %}
+        {% Image item.main.url, "portfolio image", {sm: 600, lg: 700, xl: 1200} %}
     </div>
-     {% for img in item.right %}
+
+    {% for img in item.right %}
     <div class="box-img">
-        <div class="img-content small">
+        <div class="img-content">
             <p>{{ img.description }}</p>
         </div>
 
         <div class="grid-overlay"></div>
-         {% Image img.url, "portfolio image", {sm: 600, lg: 700, xl: 1200} %}
+        {% Image img.url, "portfolio image", {sm: 600, lg: 700, xl: 1920} %}
     </div>
     {% endfor %}
 </div>
