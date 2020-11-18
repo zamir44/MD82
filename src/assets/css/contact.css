@@ -74,13 +74,22 @@
 \*------------------------------------*/
 
 
-.footer {
+/* .footer {
     padding: 0rem 5rem;
     padding-top: 50.5rem;
     max-width: 90%;
     margin: 0 auto;
-}
+} */
 
+.footer {
+    position: absolute;
+    max-width: 134rem;
+    bottom: 0;
+    padding-bottom: 2rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
 
 .flex-content {
     position: relative;
@@ -212,30 +221,63 @@ h2 {
 
 
 
-@media screen and (min-width: 769px) {
-    .footer {
-        padding-top: 37.5rem;
+@media screen and (min-width: 1921px) {
+    .nav-2 .links li a {
+        font-size: 2rem;
     }
-    
+
+    .footer {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        padding-bottom: 3rem;
+        left: 0;
+        right: 0;
+    }
+
+    .text-left {
+        font-size: 1.8rem;
+    }
+
+    .contact p,
+    .contact a,
+    .address p,
+    .address a,
+    .email p {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 2.8rem;
+    }
+
+    .border {
+        width: 8rem;
+    }
+
+    .copyright {
+        margin-top: 2rem;
+    }
+
+    .copyright p {
+        font-size: 1.8rem;
+    }
+
+    .fa-instagram,
+    .fa-facebook {
+        font-size: 3rem;
+        color: #fff;
+    }
+
 }
 
-
-
-
-
 @media screen and (max-width: 768px) {
-    .hero-contact .hero-img {
-        height: 112vh;
-    }
+
 
     .icon-burger .line {
         background-color: #fff;
     }
     
-    .hero-heading {
-    font-size: 6.3rem;
-    padding-top: 20rem;
-    }
 
 
     .hero-contact .hero-img {
@@ -253,13 +295,23 @@ h2 {
         background-color: #7f7b7b;
     }
 
-    .footer {
+    /* .footer {
         position: relative;
         padding: 20rem 4rem 1rem;
         /* padding-bottom: 1rem; */
-        z-index: 11;
-        text-align: center;
+        /* z-index: 11;
+        text-align: center; */
         /* padding-top: 20rem; */
+    /* } */
+
+
+    .footer {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        padding-bottom: 3rem;
+        left: 0;
+        right: 0;
     }
 
     .flex-content {
@@ -313,67 +365,8 @@ h2 {
 
 
 
-@media screen and (min-width: 1920px) {
-    .nav-2 .links li a {
-        font-size: 2.2rem;
-    }
-
-    .footer {
-        padding-top: 75rem;
-    }
-
-    .text-left {
-        font-size: 1.8rem;
-    }
-
-    .contact p,
-    .contact a,
-    .address p,
-    .address a,
-    .email p {
-        font-size: 1.8rem;
-    }
-
-    h2 {
-        font-size: 2.8rem;
-    }
-
-    .flex-content {
-        margin-bottom: 4rem;
-    }
-
-    .border {
-        width: 8rem;
-    }
-
-    .copyright {
-        margin-top: 2rem;
-    }
-
-    .copyright p {
-        font-size: 1.8rem;
-    }
-
-    .fa-instagram,
-    .fa-facebook {
-        font-size: 3rem;
-        color: #fff;
-    }
-
-    .footer {
-        padding-top: 70rem;
-    }
-
-}
 
 
-
-
-@media  screen and (max-width:731px) and  (min-width:601px)   {
-    .hero-contact .hero-img {
-        height: 113vh;
-    }
-}
 
 
 
@@ -428,16 +421,6 @@ h2 {
 
 
 
-@media  screen and (max-width:545px) and  (min-width:515px)   {
-    .hero-contact .hero-img {
-        height: 120vh;
-    }
-}
-
-
-
-
-
 @media  screen and (max-width:494px) and  (min-width:443px)   {
     .hero-contact .hero-img {
         height: 124vh;
@@ -448,20 +431,6 @@ h2 {
     }
 }
 
-
-
-
-
-
-@media  screen and (max-width:514px) and  (min-width:494px)   {
-    .hero-contact .hero-img {
-        height: 123vh;
-    }
-
-    .icons {
-        display: flex;
-    }
-}
 
 
 
@@ -511,12 +480,7 @@ h2 {
 }
 
 
-/* @media screen and (min-width: 1094px) {
-    .footer {
-        padding-top: 51rem;
-    }
-    
-} */
+
 
 
 
