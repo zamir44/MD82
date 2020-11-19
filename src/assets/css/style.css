@@ -272,6 +272,7 @@ nav .icon-burger {
         -moz-transition:        all 0.5s ease-in-out;
             -ms-transition:     all 0.5s ease-in-out;
                 -o-transition:  all 0.5s ease-in-out;
+    overflow: hidden;
 }
 
 
@@ -415,7 +416,18 @@ color: #4A5568; */
     .container {
         display: flex;
         flex-direction: column;
+        /* display: grid; 
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        grid-template-rows: 0; */
+        
     }
+
+    .container .flip {
+        /* display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr)); */
+
+    }
+
 
     .box-img {
         width: 70%;
