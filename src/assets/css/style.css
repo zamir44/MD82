@@ -164,7 +164,7 @@ nav .icon-burger {
     width: 100%;
     padding:  1rem;
     gap: 1rem;
-    overflow: hidden;
+
 }
 
 
@@ -420,6 +420,7 @@ color: #4A5568; */
     .box-img {
         width: 70%;
         margin: 0 auto;
+        padding-bottom: 1rem;
     }
 
     .burger-home .line {
