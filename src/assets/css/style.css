@@ -230,7 +230,7 @@ nav .icon-burger {
 .img-content {
     position: absolute;
     left: 0;
-    top: 102%;
+    top: 103%;
     width: 77%;
     color: #f2efef;
     font-size: 1.6rem;
@@ -320,10 +320,21 @@ nav .icon-burger {
 \*------------------------------------*/
 
 
-.home {
-    padding: 1.5rem 1rem;
+hr {
+    width: 98%;
+    margin: 0 auto;
 }
 
+
+.home {
+    padding: 0 1rem 3rem;
+    /* padding-bottom: 3rem; */
+}
+
+.homepage .fa-instagram,
+.homepage .fa-facebook {
+    color: #1A202C;
+}
 
 
 
@@ -416,17 +427,11 @@ color: #4A5568; */
     .container {
         display: flex;
         flex-direction: column;
-        padding: 0rem 1rem 0rem 1rem;
         /* display: grid; 
         grid-template-columns: repeat(1, minmax(0, 1fr));
         grid-template-rows: 0; */
         
     }
-
-    .flip {
-        padding: 0rem 1rem 0rem 1rem;
-    }
-
 
     .box-img {
         width: 70%;
