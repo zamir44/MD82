@@ -163,7 +163,8 @@ nav .icon-burger {
     grid-template-rows:     repeat(2, 43vh);
     width: 100%;
     padding:  1rem;
-    grid-gap: 1rem;
+    gap: 1rem;
+    
 }
 
 
@@ -245,6 +246,10 @@ nav .icon-burger {
     padding-left: 2rem;
 }
 
+.small-flip {
+    top: 103%;
+}
+
 
 .box-img:hover .img-content {
     opacity: 1;
@@ -317,13 +322,6 @@ nav .icon-burger {
 }
 
 
-.home hr { 
-    -webkit-transform:          translateY(1rem); 
-        -moz-transform:         translateY(1rem);
-            -ms-transform:      translateY(1rem);
-                -o-transform:   translateY(1rem); 
-}
-
 
 
 
@@ -354,8 +352,7 @@ color: #4A5568; */
         justify-content: center;
         background-color: rgba(0,0,0,0.9);
         height: auto;
-        width:  auto;
-        float: none;
+        width:  100%;
         position: fixed;
         left:   0;
         right:  0;
@@ -366,7 +363,11 @@ color: #4A5568; */
             -moz-transition:        all .5s ease-in-out;
                 -ms-transition:     all .5s ease-in-out;
                     -o-transition:  all .5s ease-in-out;
-        z-index: 10;
+        z-index: 111;
+    }
+
+    .links li {
+        margin-left: 0;
     }
 
     nav .links a {
@@ -384,7 +385,7 @@ color: #4A5568; */
     }
 
     nav :checked ~ .links {
-        bottom: 0;
+        bottom: 87%;
     }
 
     nav :checked ~ .icon-burger .line:nth-child(1) {
@@ -433,6 +434,14 @@ color: #4A5568; */
                 -ms-transition:     all .3s ease-in-out;
                     -o-transition:  all .3s ease-in-out;
     }
+
+    .home {
+        max-width: 135rem;
+    }
+
+    .homepage i {
+        color: #b0b3c1;
+    }
     
 }
 
@@ -446,29 +455,24 @@ color: #4A5568; */
 
     .box-img {
         width: 80%;
+        height: 31rem;
+        margin: 0 auto;
     }
 
     .grid-image:hover .grid-overlay {
         margin: 0rem;
     }
 
-    .box-img {
-        width: 60%;
-        height: 31rem;
-        margin: 0 auto;
+    .home hr {
+        width: 95%;
+    }
+
+    .homepage i {
+        color: #b0b3c1;
     }
 
 }
 
-
-
-
-
-@media  screen and (max-width:600px) and  (min-width:443px)   {
-    .box-img {
-        width: 80%;
-    }
-}
 
 
 
@@ -485,13 +489,14 @@ color: #4A5568; */
 }
 
 .home {
-    padding: 0 4rem;
+    padding: 0 1rem;
 }
 
-hr {
+.home hr {
     background-color: #b0b3c1;
     width: 95%;
     margin: 0 auto;
+    padding: 0 2rem;
 }
 
 .homepage i {
