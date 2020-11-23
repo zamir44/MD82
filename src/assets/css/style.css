@@ -163,7 +163,7 @@ nav .icon-burger {
     grid-template-rows:     repeat(2, 43vh);
     width: 100%;
     padding:  1rem;
-    gap: 1rem;
+    /* gap: 1rem; */
 
 }
 
@@ -425,13 +425,14 @@ color: #4A5568; */
         }
 
     .container {
-        display: flex;
-        flex-direction: column;
-        /* display: grid; 
-        grid-template-columns: repeat(1, minmax(0, 1fr));
-        grid-template-rows: 0; */
-        
+        display: block; 
+        padding: 0 1rem;
     }
+
+    .flip {
+        display: block;
+    }
+
 
     .box-img {
         width: 70%;
