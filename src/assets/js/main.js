@@ -41,3 +41,15 @@ window.addEventListener('DOMContentLoaded', (e) => {
   );
 
 });
+
+// SCROLL TO TOP
+
+const btnScroll = document.querySelector('#btnScroll');
+
+btnScroll.addEventListener('click', function () {
+  window.scrollTop({
+    top: 0,
+    left: 0,
+    behavior: "smooth"
+  })
+})
