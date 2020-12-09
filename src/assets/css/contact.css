@@ -181,7 +181,7 @@ h2 {
     max-width: 100%;
     margin: 0 auto;
     margin-top: 2rem;
-    padding: 0 1rem 3rem;
+    padding: 0 0 3rem;
 }
 
 
@@ -217,20 +217,17 @@ h2 {
         font-size: 1.8rem;
     }
 
-    .text-left {
-        font-size: 1.5rem;
-    }
-
+    .text-left, 
     .contact p,
     .contact a,
     .address p,
     .address a,
     .email p {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     h2 {
-        font-size: 2.8rem;
+        font-size: 2.4rem;
     }
 
     .border {
@@ -255,12 +252,12 @@ h2 {
     }
 
     .copyright p {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     .fa-instagram,
     .fa-facebook {
-        font-size: 3rem;
+        font-size: 2.5rem;
         color: #fff;
     }
 
@@ -276,7 +273,7 @@ h2 {
     }
     
     .hero-contact .hero-img {
-        height: 110vh;
+        height: 100vh;
         width: 100%;
     }
 
@@ -286,14 +283,14 @@ h2 {
     }
 
     .copyright {
-        max-width: 95%;
-        margin-top: 1rem;
+        max-width: 100%;
+        margin-top: 2rem;
     }
 
     hr {
         margin-top: 2rem;
         background-color: #7f7b7b;
-        max-width: 95%;
+        max-width: 100%;
         margin: 0 auto;
     }
 
@@ -308,7 +305,7 @@ h2 {
     .flex-content {
         width: 100%;
         flex-wrap: wrap;
-        margin: 0 auto;
+        margin: 7rem auto;
     }
 
     .text-left {
@@ -317,14 +314,9 @@ h2 {
         text-align: center;
     }
 
-    .text-left p {
-        text-align: center;
-    }
-
     .border,
     .text-left .border {
         margin: 0 auto;
-        margin-top: 1rem;
     }
 
     .footer-container {
@@ -357,14 +349,6 @@ h2 {
 
 @media screen and (max-width: 600px) {
 
-    .hero-contact .hero-img {
-        height: 117vh;
-    }
-
-    .hero-heading {
-        font-size: 5.5rem;
-    }
-
     .hero-text {
         font-size: 5rem;
     }
@@ -389,12 +373,16 @@ h2 {
     }
 
     .copyright {
-        margin-top: 1rem;
+        margin-top: 2rem;
         font-size: 1.4rem;
     }
 
     .copyright p {
         font-size: 1.4rem;
+    }
+
+    .icons {
+        display: flex;
     }
 }
 

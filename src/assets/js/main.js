@@ -20,14 +20,25 @@ window.addEventListener('DOMContentLoaded', (e) => {
 
       basicLightbox.create(picture).show();
     })
+
+    const btnScroll = document.querySelector('#scrollTop');
+
+    btnScroll.addEventListener('click', function () {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth"
+      })
+    })
+
   })
 
 
 
 
-  // sticky here
 
   //*** STICKY NAVIGATION ***//
+
   const header = document.getElementById("menu-wrapper");
 
   window.addEventListener(
@@ -44,12 +55,3 @@ window.addEventListener('DOMContentLoaded', (e) => {
 
 // SCROLL TO TOP
 
-const btnScroll = document.querySelector('#btnScroll');
-
-btnScroll.addEventListener('click', function () {
-  window.scrollTop({
-    top: 0,
-    left: 0,
-    behavior: "smooth"
-  })
-})

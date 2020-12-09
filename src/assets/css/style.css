@@ -31,7 +31,7 @@ body {
 
 .nav-2 {
     left:   0;
-    right:  -1rem;
+    right:  0;
     top:    0;
     background-color: transparent;
     position: fixed;
@@ -321,13 +321,14 @@ nav .icon-burger {
 
 
 hr {
-    width: 98%;
+    width: 100%;
     margin: 0 auto;
 }
 
 
-.home {
+.copyright.home {
     padding: 0 1rem 3rem;
+    display: block;
 }
 
 
@@ -336,11 +337,13 @@ hr {
     color: #1A202C;
 }
 
+.flex-items {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
-
-<<<<<<< HEAD
 /*------------------------------------*\
     #SCROLL TO TOP
 \*------------------------------------*/
@@ -360,7 +363,7 @@ hr {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     background: #cccc;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
     color: #1d1e1e;
     border: none;
     outline: none;
@@ -372,8 +375,8 @@ hr {
 }
 /* color: #1A202C;
 color: #4A5568; */
-=======
->>>>>>> 285f8fb53271ef4c3bfaec79ca84201bb019cdc3
+
+
 
 /*------------------------------------*\
     #MEDIA QUERIES
@@ -458,10 +461,6 @@ color: #4A5568; */
         }
 
     .container {
-<<<<<<< HEAD
-        display: flex;
-        flex-direction: column;        
-=======
         display: block; 
         padding: 0 1rem;
     }
@@ -474,7 +473,6 @@ color: #4A5568; */
     .img-content,
     .grid-overlay {
         display: none;
->>>>>>> 285f8fb53271ef4c3bfaec79ca84201bb019cdc3
     }
 
 
@@ -499,9 +497,6 @@ color: #4A5568; */
                     -o-transition:  all .3s ease-in-out;
     }
 
-    .home {
-        max-width: 135rem;
-    }
 
     .homepage i {
         color: #b0b3c1;
@@ -527,10 +522,6 @@ color: #4A5568; */
         margin: 0rem;
     }
 
-    .home hr {
-        width: 95%;
-    }
-
     .homepage i {
         color: #b0b3c1;
     }
@@ -548,19 +539,17 @@ color: #4A5568; */
     width: 100%;
 }
 
-.copyright p {
+.copyright.home p {
     width: 75%;
 }
 
-.home {
+.copyright.home {
     padding: 0 1rem;
 }
 
 .home hr {
     background-color: #b0b3c1;
-    width: 95%;
     margin: 0 auto;
-    padding: 0 2rem;
 }
 
 .homepage i {
