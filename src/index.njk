@@ -11,7 +11,7 @@ layout: default
 <div class="container ">
 
     <div class="box-img">
-
+        
         <div class="img-content">
             <p>{{ item.main.description }}</p>
         </div>
@@ -19,10 +19,10 @@ layout: default
         <div class="grid-overlay"></div>
         {% Image item.main.url, "portfolio image", {sm: 600, lg: 700, xl: 1920} %}
     </div>
-
+    
     {% for img in item.right %}
     <div class="box-img">
-
+        
         <div class="img-content small">
             <p>{{ img.description }}</p>
         </div>
@@ -30,6 +30,7 @@ layout: default
         <div class="grid-overlay"></div>
         {% Image img.url, "portfolio image", {sm: 600, lg: 700, xl: 1200} %}
     </div>
+    
     {% endfor %}
     
 </div>
@@ -39,23 +40,27 @@ layout: default
 <div class="container flip">
 
     <div class="box-img">
-        <div class="img-content small-flip">
-            <p>{{ item.main.description }}</p>
-        </div>
+        
+            <div class="img-content small-flip">
+                <p>{{ item.main.description }}</p>
+            </div>
 
-        <div class="grid-overlay"></div>
-        {% Image item.main.url, "portfolio image", {sm: 600, lg: 700, xl: 1200} %}
+            <div class="grid-overlay"></div>
+            {% Image item.main.url, "portfolio image", {sm: 600, lg: 700, xl: 1200} %}
+        
     </div>
 
     {% for img in item.right %}
     <div class="box-img">
+        
         <div class="img-content flip-content">
             <p>{{ img.description }}</p>
         </div>
 
         <div class="grid-overlay"></div>
         {% Image img.url, "portfolio image", {sm: 600, lg: 700, xl: 1920} %}
-    </div>
+        </div>
+    
     {% endfor %}
 </div>
 {% endif %}
@@ -63,9 +68,13 @@ layout: default
 {% endfor %}
 
 </div>
+<<<<<<< HEAD
 <button id="scrollTop">
     <i class="material-icons">arrow_upward</i>
 </button>
+=======
+
+>>>>>>> 285f8fb53271ef4c3bfaec79ca84201bb019cdc3
 <hr class="horizontal">
 <div class="copyright home">
     

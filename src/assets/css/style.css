@@ -164,7 +164,6 @@ nav .icon-burger {
     width: 100%;
     padding:  1rem;
     gap: 1rem;
-
 }
 
 
@@ -248,6 +247,7 @@ nav .icon-burger {
     padding-left: 2rem;
 }
 
+
 .small-flip {
     top: 103%;
 }
@@ -328,8 +328,8 @@ hr {
 
 .home {
     padding: 0 1rem 3rem;
-    /* padding-bottom: 3rem; */
 }
+
 
 .homepage .fa-instagram,
 .homepage .fa-facebook {
@@ -340,6 +340,7 @@ hr {
 
 
 
+<<<<<<< HEAD
 /*------------------------------------*\
     #SCROLL TO TOP
 \*------------------------------------*/
@@ -371,6 +372,8 @@ hr {
 }
 /* color: #1A202C;
 color: #4A5568; */
+=======
+>>>>>>> 285f8fb53271ef4c3bfaec79ca84201bb019cdc3
 
 /*------------------------------------*\
     #MEDIA QUERIES
@@ -455,9 +458,25 @@ color: #4A5568; */
         }
 
     .container {
+<<<<<<< HEAD
         display: flex;
         flex-direction: column;        
+=======
+        display: block; 
+        padding: 0 1rem;
     }
+
+    .flip {
+        display: block;
+    }
+
+    .flip-content,
+    .img-content,
+    .grid-overlay {
+        display: none;
+>>>>>>> 285f8fb53271ef4c3bfaec79ca84201bb019cdc3
+    }
+
 
     .box-img {
         width: 70%;
@@ -487,7 +506,7 @@ color: #4A5568; */
     .homepage i {
         color: #b0b3c1;
     }
-    
+
 }
 
 

@@ -94,7 +94,6 @@
     max-width: 100%;
     margin: 0 auto;
     margin-bottom: 4rem;
-    /* z-index: 155; */
     opacity: .93;
 }
 
@@ -215,11 +214,11 @@ h2 {
 
 @media screen and (min-width: 1920px) {
     .nav-2 .links li a {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .text-left {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .contact p,
@@ -227,7 +226,7 @@ h2 {
     .address p,
     .address a,
     .email p {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     h2 {
@@ -238,8 +237,21 @@ h2 {
         width: 8rem;
     }
 
+    .footer {
+        max-width: 166rem;
+    }
+
+    .flex-content {
+        margin-bottom: 2rem;
+    }
+
+    hr {
+        width: 100%;
+    }
+
     .copyright {
         margin-top: 2rem;
+        padding: 0 0 3rem;
     }
 
     .copyright p {
@@ -268,6 +280,11 @@ h2 {
         width: 100%;
     }
 
+    .text-left h2,
+    .contact h2 {
+        display: none;
+    }
+
     .copyright {
         max-width: 95%;
         margin-top: 1rem;
@@ -284,7 +301,6 @@ h2 {
         position: absolute;
         width: 100%;
         bottom: 0;
-        padding-bottom: 3rem;
         left: 0;
         right: 0;
     }
@@ -385,32 +401,6 @@ h2 {
 
 
 
-
-
-@media screen and (max-width: 493px) {
-    
-    .text-left .border {
-        margin: 2rem auto;
-    }
-
-    .copyright p {
-        text-align: left;
-    }
-
-    .copyright {
-        margin-top: 1rem;
-
-    }
-
-    hr {
-        margin-bottom: 1rem;
-        color:#7f7b7b;
-    }
-
-    .icons {
-        display: flex;
-    }
-}
 
 
 
