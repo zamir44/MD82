@@ -340,6 +340,7 @@ hr {
 .flex-items {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 2rem
 }
 
 
