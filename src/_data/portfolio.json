@@ -2,7 +2,7 @@
     "items": [
         {
             "main": {
-                "url": "./src/assets/img/main-img4.jpg",
+                "url": "./src/assets/img/main-img3.jpg",
                 "description": "Buebenau Variante 2019 "
             },
             "right": [
@@ -11,22 +11,22 @@
                     "description": "Description here"
                 },
                 {
-                    "url": "./src/assets/img/img-13.jpg" ,
+                    "url": "./src/assets/img/main-img1.jpg" ,
                     "description": "Description here"
                 },
                 {
-                    "url": "./src/assets/img/img-14.jpg",
+                    "url": "./src/assets/img/img-5.jpg",
                     "description": "Description here"
                 },
                 {
-                    "url": "./src/assets/img/img-15.jpg  ",
+                    "url": "./src/assets/img/img-15.jpg",
                     "description": "Description here"
                 }
             ]
         },
         {
             "main": {
-                "url": "./src/assets/main-img2.jpg",
+                "url": "./src/assets/img/main-img2.jpg",
                 "description": "Description here"
             },
             "right": [
@@ -35,7 +35,7 @@
                     "description": "Description here"
                 },
                 {
-                    "url": "./src/assets/img/img-17.jpg",
+                    "url": "./src/assets/img/main-img.jpg",
                     "description": "Description here"
                 },
                 {
@@ -74,7 +74,7 @@
         },
         {
             "main": {
-                "url": "./src/assets/img/main-img9.jpg  ",
+                "url": "./src/assets/img/main-img9.jpg",
                 "description": "Description here"
             },
             "right": [
@@ -98,7 +98,7 @@
         },
         {
             "main": {
-                "url": "./src/assets/img/main-img.jpg",
+                "url": "./src/assets/img/main-img8.jpg",
                 "description": "Description here"
             },
             "right": [
@@ -146,7 +146,7 @@
         },
         {
             "main": {
-                "url": "./src/assets/img/main-img6",
+                "url": "./src/assets/img/main-img6.jpg",
                 "description": "Description here"
             },
             "right": [
