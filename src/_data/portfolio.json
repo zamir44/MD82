@@ -19,7 +19,7 @@
                     "description": "Description here"
                 },
                 {
-                    "url": "./src/assets/img/img-15.jpg  ",
+                    "url": "./src/assets/img/img-15.jpg",
                     "description": "Description here"
                 }
             ]
@@ -74,7 +74,7 @@
         },
         {
             "main": {
-                "url": "./src/assets/img/main-img9.jpg  ",
+                "url": "./src/assets/img/main-img9.jpg",
                 "description": "Description here"
             },
             "right": [
