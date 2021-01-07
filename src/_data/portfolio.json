@@ -146,48 +146,48 @@
         },
         {
             "main": {
-                "url": "./src/assets/img/00. Ennetburgen Mfh.jpg",
+                "url": "./src/assets/img/main-img6",
                 "description": "Description here"
             },
             "right": [
                 {
-                    "url": "./src/assets/img/SEEWEN EINFAMILIENHAUS AUSSEN  PERSPEKTIVE (2).jpg",
+                    "url": "./src/assets/img/img-1.jpg",
                     "description": "Description here"
                 },
                 {
-                    "url": "./src/assets/img/REALISM 01.jpg",
+                    "url": "./src/assets/img/img-2.jpg",
                     "description": "Description here"
                 },
                 {
-                    "url": "./src/assets/img/02. 1DG WOHNEN ESSEN 02.jpg",
+                    "url": "./src/assets/img/img-3.jpg",
                     "description": "Description here"
                 },
                 {
-                    "url": "./src/assets/img/SEEWEN EINFAMILIENHAUS AUSSEN  PERSPEKTIVE (4).jpg",
+                    "url": "./src/assets/img/img-4.jpg",
                     "description": "Description here"
                 }
             ]
         },
         {
             "main": {
-                "url": "./src/assets/img/OG. TOALET BAD.jpg",
+                "url": "./src/assets/img/main-img4.jpg",
                 "description": "Description here"
             },
             "right": [
                 {
-                    "url": "./src/assets/img/00. Kuche Rietheim Haus 01.jpg",
+                    "url": "./src/assets/img/img-5.jpg",
                     "description": "Description here"
                 },
                 {
-                    "url": "./src/assets/img/00. HAUS 05 WOHNZIMMER.jpg",
+                    "url": "./src/assets/img/img-6.jpg",
                     "description": "Description here"
                 },
                 {
-                    "url": "./src/assets/img/00. HAUS 05 EG KUCHE  WOHNZIMMER.jpg",
+                    "url": "./src/assets/img/img-7.jpg",
                     "description": "Description here"
                 },
                 {
-                    "url": "./src/assets/img/00. Mfh Ennetburgen  2019 (3).jpg",
+                    "url": "./src/assets/img/img-8.jpg",
                     "description": "Description here"
                 }
             ]
