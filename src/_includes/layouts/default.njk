@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }} - {{ site.description | safe }}</title>
+    <meta name="title" content="{{ site.title }} - {{ site.description | safe }}">
+    <meta name="description" content="{{ site.description | safe }}">
+    {%- for keyword in site.keywords -%}
+    <meta name="keywords" content="{{ keyword }}{%- if not loop.last %},{% endif -%}">
+    {%- endfor -%}
+
+    {# Meta and Favicons #}
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+    {# Prefetch Fonts #}
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;300;400;600;700;800;900&family=Raleway:wght@200;300;400;600;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
+ 
+
+    {# CSS #}
+    
+    <link rel="stylesheet" href="/assets/css/basicLightbox.min.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/contact.css" />
+    <link rel="stylesheet" href="/assets/css/webfonts/all.css" />
+    
+
+</head>
+
+<body>
+
+    {# Header #}
+    {% include "partials/header.njk" %}
+
+    {# Content #}
+    {{ content | safe }}
+
+    {# Javascript #}
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>

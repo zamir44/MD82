@@ -1,0 +1,86 @@
+---
+layout: default
+---
+
+<div style="margin-top: 6.5rem; padding-bottom: 5rem">
+
+{% for item in portfolio.items %}
+
+    {% if loop.index % 2 == 0 %}
+
+<div class="container ">
+
+    <div class="box-img">
+        
+        <div class="img-content">
+            <p>{{ item.main.description }}</p>
+        </div>
+
+        <div class="grid-overlay"></div>
+        {% Image item.main.url, "portfolio image", {sm: 600, lg: 700, xl: 1920} %}
+    </div>
+    
+    {% for img in item.right %}
+    <div class="box-img">
+        
+        <div class="img-content small">
+            <p>{{ img.description }}</p>
+        </div>
+
+        <div class="grid-overlay"></div>
+        {% Image img.url, "portfolio image", {sm: 600, lg: 700, xl: 1200} %}
+    </div>
+    
+    {% endfor %}
+    
+</div>
+
+{% else %}
+
+<div class="container flip">
+
+    <div class="box-img">
+        
+            <div class="img-content small-flip">
+                <p>{{ item.main.description }}</p>
+            </div>
+
+            <div class="grid-overlay"></div>
+            {% Image item.main.url, "portfolio image", {sm: 600, lg: 700, xl: 1200} %}
+        
+    </div>
+
+    {% for img in item.right %}
+    <div class="box-img">
+        
+        <div class="img-content flip-content">
+            <p>{{ img.description }}</p>
+        </div>
+
+        <div class="grid-overlay"></div>
+        {% Image img.url, "portfolio image", {sm: 600, lg: 700, xl: 1920} %}
+        </div>
+    
+    {% endfor %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+</div>
+<button id="scrollTop">
+    <i class="material-icons">arrow_upward</i>
+</button>
+
+
+<div class="copyright home">
+    <hr>
+    <div class="flex-items">
+    <p>MD82 &copy; All Rights Reserved 2020</p>
+
+    <div class="icons homepage">
+        <a href="https://www.instagram.com/realism.ch/?hl=en"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/ParametricDeform/"><i class="fab fa-facebook"></i></a>
+    </div>
+    </div>
+</div>

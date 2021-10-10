@@ -1,0 +1,193 @@
+{
+    "items": [{
+            "main": {
+                "url": "./src/assets/img/main-img4.jpg",
+                "description": "Buebenau Variante 2019 "
+            },
+            "right": [{
+                    "url": "./src/assets/img/img-12.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-13.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-14.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-15.jpg",
+                    "description": "Description here"
+                }
+            ]
+        },
+        {
+            "main": {
+                "url": "./src/assets/img/main-img2.jpg",
+                "description": "Description here"
+            },
+            "right": [{
+                    "url": "./src/assets/img/img-16.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-17.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-18.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-19.jpg",
+                    "description": "Description here"
+                }
+            ]
+        },
+        {
+            "main": {
+                "url": "./src/assets/img/main-img5.jpg",
+                "description": "Description here"
+            },
+            "right": [
+                {
+                    "url": "./src/assets/img/img-20.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-21.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-22.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-23.jpg",
+                    "description": "Description here"
+                }
+            ]
+        },
+        {
+            "main": {
+                "url": "./src/assets/img/main-img9.jpg",
+                "description": "Description here"
+            },
+            "right": [
+                {
+                    "url": "./src/assets/img/img-24.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-25.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-26.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-27.jpg",
+                    "description": "Description here"
+                }
+            ]
+        },
+        {
+            "main": {
+                "url": "./src/assets/img/main-img.jpg",
+                "description": "Description here"
+            },
+            "right": [
+                {
+                    "url": "./src/assets/img/img-28.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-29.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-30.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-31.jpg",
+                    "description": "Description here"
+                }
+            ]
+        },
+        {
+            "main": {
+                "url": "./src/assets/img/main-img7.jpg",
+                "description": "Description here"
+            },
+            "right": [
+                {
+                    "url": "./src/assets/img/img-32.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-33.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-34.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-35.jpg",
+                    "description": "Description here"
+                }
+            ]
+        },
+        {
+            "main": {
+                "url": "./src/assets/img/main-img6.jpg",
+                "description": "Description here"
+            },
+            "right": [
+                {
+                    "url": "./src/assets/img/img-1.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-2.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-3.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-4.jpg",
+                    "description": "Description here"
+                }
+            ]
+        },
+        {
+            "main": {
+                "url": "./src/assets/img/main-img4.jpg",
+                "description": "Description here"
+            },
+            "right": [
+                {
+                    "url": "./src/assets/img/img-5.jpg",
+                    "description": "Description here"
+                }
+                {
+                    "url": "./src/assets/img/img-6.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-7.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-8.jpg",
+                    "description": "Description here"
+                }
+            ]
+        }
+    ]
+}
