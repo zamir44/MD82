@@ -2,23 +2,23 @@
     "items": [
         {
             "main": {
-                "url": "./src/assets/img/New/IMG_5548.jpeg",
+                "url": "./src/assets/img/New/IMG_6905.jpeg",
                 "description": "Buebenau Variante 2019 "
             },
             "right": [{
-                    "url": "./src/assets/img/New/IMG_5553.jpeg",
+                    "url": "./src/assets/img/New/IMG_5546.jpeg",
                     "description": "Description here"
                 },
                 {
-                    "url": "./src/assets/img/New/eg-korex-01.jpeg",
+                    "url": "./src/assets/img/New/IMG_5548.jpeg",
                     "description": "Description here"
                 },
                 {
-                    "url": "./src/assets/img/New/eg-korex-02.jpeg",
+                    "url": "./src/assets/img/New/IMG_6906.jpeg",
                     "description": "Description here"
                 },
                 {
-                    "url": "./src/assets/img/New/01. HOME OFFICE.jpeg",
+                    "url": "./src/assets/img/New/IMG_6904.jpeg",
                     "description": "Description here"
                 }
             ]
