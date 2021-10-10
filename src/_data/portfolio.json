@@ -1,5 +1,75 @@
 {
-    "items": [{
+    "items": [
+        {
+            "main": {
+                "url": "./src/assets/img/New/IMG_5548.jpeg",
+                "description": "Buebenau Variante 2019 "
+            },
+            "right": [{
+                    "url": "./src/assets/img/New/IMG_5546.jpeg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/New/eg-korex-01.jpeg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/New/eg-korex-02.jpeg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/New/01. HOME OFFICE.jpeg",
+                    "description": "Description here"
+                }
+            ]
+        },
+        {
+            "main": {
+                "url": "./src/assets/img/New/IMG_5548.jpeg",
+                "description": "Buebenau Variante 2019 "
+            },
+            "right": [{
+                    "url": "./src/assets/img/New/IMG_5546.jpeg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/New/eg-korex-01.jpeg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/New/eg-korex-02.jpeg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/New/01. HOME OFFICE.jpeg",
+                    "description": "Description here"
+                }
+            ]
+        },
+        {
+            "main": {
+                "url": "./src/assets/img/main-img4.jpg",
+                "description": "Buebenau Variante 2019 "
+            },
+            "right": [{
+                    "url": "./src/assets/img/img-12.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-13.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-14.jpg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/img-15.jpg",
+                    "description": "Description here"
+                }
+            ]
+        },
+        {
             "main": {
                 "url": "./src/assets/img/main-img4.jpg",
                 "description": "Buebenau Variante 2019 "
