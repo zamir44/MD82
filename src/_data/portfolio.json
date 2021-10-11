@@ -79,61 +79,15 @@
                     "description": "Description here"
                 },
                 {
-                    "url": "./src/assets/img/new_images/02.a.jpeg",
+                    "url": "./src/assets/img/new_images/31.g.jpeg",
                     "description": "Description here"
                 },
                 {
-                    "url": "./src/assets/img/new_images/03.a.jpeg",
-                    "description": "Description here"
-                },
-                {
-                    "url": "./src/assets/img/new_images/04.a.jpeg",
-                    "description": "Description here"
-                }
-            ]
-        },
-        {
-            "main": {
-                "url": "./src/assets/img/new_images/31.g.jpeg",
-                "description": "Buebenau Variante 2019 "
-            },
-            "right": [{
                     "url": "./src/assets/img/new_images/32.g.jpeg",
                     "description": "Description here"
                 },
                 {
                     "url": "./src/assets/img/new_images/33.g.jpeg",
-                    "description": "Description here"
-                },
-                {
-                    "url": "./src/assets/img/new_images/34.g.jpeg",
-                    "description": "Description here"
-                },
-                {
-                    "url": "./src/assets/img/new_images/04.a.jpeg",
-                    "description": "Description here"
-                }
-            ]
-        },
-        {
-            "main": {
-                "url": "./src/assets/img/main-img4.jpg",
-                "description": "Buebenau Variante 2019 "
-            },
-            "right": [{
-                    "url": "./src/assets/img/img-12.jpg",
-                    "description": "Description here"
-                },
-                {
-                    "url": "./src/assets/img/img-13.jpg",
-                    "description": "Description here"
-                },
-                {
-                    "url": "./src/assets/img/img-14.jpg",
-                    "description": "Description here"
-                },
-                {
-                    "url": "./src/assets/img/img-15.jpg",
                     "description": "Description here"
                 }
             ]
