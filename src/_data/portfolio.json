@@ -2,69 +2,23 @@
     "items": [
         {
             "main": {
-                "url": "./src/assets/img/New/IMG_6905.jpeg",
+                "url": "./src/assets/img/New_images/00.a.jpg",
                 "description": "Buebenau Variante 2019 "
             },
             "right": [{
-                    "url": "./src/assets/img/New/IMG_5546.jpeg",
+                    "url": "./src/assets/img/New_images/01.a.jpg",
                     "description": "Description here"
                 },
                 {
-                    "url": "./src/assets/img/New/IMG_5548.jpeg",
+                    "url": "./src/assets/img/New_images/02.a.jpg",
                     "description": "Description here"
                 },
                 {
-                    "url": "./src/assets/img/New/IMG_6906.jpeg",
+                    "url": "./src/assets/img/New_images/03.a.jpg",
                     "description": "Description here"
                 },
                 {
-                    "url": "./src/assets/img/New/IMG_6904.jpeg",
-                    "description": "Description here"
-                }
-            ]
-        },
-        {
-            "main": {
-                "url": "./src/assets/img/New/IMG_6907.jpeg",
-                "description": "Buebenau Variante 2019 "
-            },
-            "right": [{
-                    "url": "./src/assets/img/New/IMG_6909.jpeg",
-                    "description": "Description here"
-                },
-                {
-                    "url": "./src/assets/img/New/IMG_6911.jpeg",
-                    "description": "Description here"
-                },
-                {
-                    "url": "./src/assets/img/New/IMG_6903.jpeg",
-                    "description": "Description here"
-                },
-                {
-                    "url": "./src/assets/img/New/IMG_5554.jpeg",
-                    "description": "Description here"
-                }
-            ]
-        },
-        {
-            "main": {
-                "url": "./src/assets/img/New/01. STRASSENSEITE FERTIG.jpeg",
-                "description": "Buebenau Variante 2019 "
-            },
-            "right": [{
-                    "url": "./src/assets/img/New/IMG_5552.jpeg",
-                    "description": "Description here"
-                },
-                {
-                    "url": "./src/assets/img/New/IMG_5550.jpeg",
-                    "description": "Description here"
-                },
-                {
-                    "url": "./src/assets/img/New/IMG_6905.jpeg",
-                    "description": "Description here"
-                },
-                {
-                    "url": "./src/assets/img/New/02. Garten Visual Seon.jpeg",
+                    "url": "./src/assets/img/New_images/04.a.jpg",
                     "description": "Description here"
                 }
             ]
