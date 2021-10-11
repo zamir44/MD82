@@ -2,23 +2,115 @@
     "items": [
         {
             "main": {
-                "url": "./src/assets/img/New_images/00.a.jpg",
+                "url": "./src/assets/img/new_images/00.a.jpeg",
                 "description": "Buebenau Variante 2019 "
             },
             "right": [{
-                    "url": "./src/assets/img/New_images/01.a.jpg",
+                    "url": "./src/assets/img/new_images/01.a.jpeg",
                     "description": "Description here"
                 },
                 {
-                    "url": "./src/assets/img/New_images/02.a.jpg",
+                    "url": "./src/assets/img/new_images/02.a.jpeg",
                     "description": "Description here"
                 },
                 {
-                    "url": "./src/assets/img/New_images/03.a.jpg",
+                    "url": "./src/assets/img/new_images/03.a.jpeg",
                     "description": "Description here"
                 },
                 {
-                    "url": "./src/assets/img/New_images/04.a.jpg",
+                    "url": "./src/assets/img/new_images/04.a.jpeg",
+                    "description": "Description here"
+                }
+            ]
+        },
+        {
+            "main": {
+                "url": "./src/assets/img/new_images/05.a.jpeg",
+                "description": "Buebenau Variante 2019 "
+            },
+            "right": [{
+                    "url": "./src/assets/img/new_images/06.a.jpeg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/new_images/07.a.jpeg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/new_images/11.b.jpeg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/new_images/12.b.jpeg",
+                    "description": "Description here"
+                }
+            ]
+        },
+        {
+            "main": {
+                "url": "./src/assets/img/new_images/13.b.jpeg",
+                "description": "Buebenau Variante 2019 "
+            },
+            "right": [{
+                    "url": "./src/assets/img/new_images/14.b.jpeg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/new_images/15.b.jpeg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/new_images/21.e.jpeg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/new_images/22.e.jpeg",
+                    "description": "Description here"
+                }
+            ]
+        },
+        {
+            "main": {
+                "url": "./src/assets/img/new_images/23.e.jpeg",
+                "description": "Buebenau Variante 2019 "
+            },
+            "right": [{
+                    "url": "./src/assets/img/new_images/27.e.jpeg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/new_images/02.a.jpeg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/new_images/03.a.jpeg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/new_images/04.a.jpeg",
+                    "description": "Description here"
+                }
+            ]
+        },
+        {
+            "main": {
+                "url": "./src/assets/img/new_images/31.g.jpeg",
+                "description": "Buebenau Variante 2019 "
+            },
+            "right": [{
+                    "url": "./src/assets/img/new_images/32.g.jpeg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/new_images/33.g.jpeg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/new_images/34.g.jpeg",
+                    "description": "Description here"
+                },
+                {
+                    "url": "./src/assets/img/new_images/04.a.jpeg",
                     "description": "Description here"
                 }
             ]
