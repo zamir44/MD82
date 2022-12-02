@@ -17,7 +17,7 @@ layout: default
         </div>
 
         <div class="grid-overlay"></div>
-        {% Image item.main.url, "portfolio image", {sm: 600, lg: 700, xl: 1920} %}
+        {% Image item.main.url, "portfolio image" %}
     </div>
     
     {% for img in item.right %}
@@ -28,7 +28,7 @@ layout: default
         </div>
 
         <div class="grid-overlay"></div>
-        {% Image img.url, "portfolio image", {sm: 600, lg: 700, xl: 1200} %}
+        {% Image img.url, "portfolio image" %}
     </div>
     
     {% endfor %}
@@ -46,7 +46,7 @@ layout: default
             </div>
 
             <div class="grid-overlay"></div>
-            {% Image item.main.url, "portfolio image", {sm: 600, lg: 700, xl: 1200} %}
+            {% Image item.main.url, "portfolio image" %}
         
     </div>
 
@@ -58,7 +58,7 @@ layout: default
         </div>
 
         <div class="grid-overlay"></div>
-        {% Image img.url, "portfolio image", {sm: 600, lg: 700, xl: 1920} %}
+        {% Image img.url, "portfolio image" %}
         </div>
     
     {% endfor %}
